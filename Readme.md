@@ -12,7 +12,7 @@
 ## API
 
   ```javascript
-  var vue = require('vue');
+  var Vue = require('vue');
   Vue.component('alert', require('vue-bootstrap-alert'));
 
   new Vue({
