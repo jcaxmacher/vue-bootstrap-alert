@@ -1,0 +1,14 @@
+<div class="alert"
+     role="alert"
+     v-class="'alert-'+type,
+              alert-dismissable: closeable"
+     v-transition>
+    <button v-show="closeable"
+            type="button"
+            class="close"
+            v-on="click: close">
+        <span aria-hidden="true">&times;</span>
+        <span class="sr-only">Close</span>
+    </button>
+    {{> yield }}
+</div>

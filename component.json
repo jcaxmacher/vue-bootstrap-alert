@@ -1,0 +1,19 @@
+{
+  "name": "vue-bootstrap-alert",
+  "repo": "obsoleter/vue-bootstrap-alert",
+  "description": "Bootstrap alert component for Vue.js",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "yyx990803/vue": "*",
+    "obsoleter/bootstrap-css": "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": []
+}
