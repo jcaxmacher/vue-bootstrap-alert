@@ -9,6 +9,8 @@
 
     $ component install obsoleter/vue-bootstrap-alert
 
+  Don't forget to include `build/build.css` and `build/build.js` in your html file.
+
 ## API
 
   ```javascript
